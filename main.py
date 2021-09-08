@@ -19,7 +19,7 @@ if  choice == "1"  :
 elif choice == "2"  :
     from cryptography.fernet import Fernet
 
-    key = b'SD7moXTGky9yXeyYUp_mOt67J4aaxgh6fKGgC7gEx3M=' #This is your secret key
+    key = b'' #Enter your secret key between ''
     input_file = 'password.txt'
     output_file = 'password.encrypted'
 
@@ -39,7 +39,7 @@ elif choice == "2"  :
 elif choice == "3"  :
     from cryptography.fernet import Fernet, InvalidToken
 
-    key = b'SD7moXTGky9yXeyYUp_mOt67J4aaxgh6fKGgC7gEx3M=' #This is your secret key
+    key = b'' #Enter your secret key between ''
     input_file = 'password.encrypted'
     output_file = 'password.txt'
 
